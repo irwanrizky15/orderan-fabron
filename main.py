@@ -42,7 +42,7 @@ with st.spinner('Loading data from Google Sheets...'):
     display_data = total_per_catatan[['Catatan','Total Harga']]
 
     # raw data
-    st.subheader("Raw Data Cok")
+    st.subheader("Raw Data Nofan Ancuk")
     st.dataframe(df)
     
     # total per category
