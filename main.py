@@ -42,7 +42,7 @@ with st.spinner('Loading data from Google Sheets...'):
     display_data = total_per_catatan[['Catatan','Total Harga']]
 
     # raw data
-    st.subheader("Raw Data")
+    st.subheader("Raw Data Cok")
     st.dataframe(df)
     
     # total per category
@@ -52,3 +52,6 @@ with st.spinner('Loading data from Google Sheets...'):
     # chart bar
     st.subheader("Category Analysis")
     st.bar_chart(chart_data.set_index('Catatan')['Harga_total'])
+
+    st.subheader("Raw Data")
+    st.dataframe(df)
